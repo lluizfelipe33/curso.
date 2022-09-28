@@ -1,0 +1,6 @@
+da  hora  importar  dormir
+print ( "Contagem regressiva iniciada" )
+para  i  no  intervalo ( 10 , 0 , - 1 ):
+  imprimir ( eu )
+  dormir ( 1 )
+imprima ( ' BUUUUM ' )
