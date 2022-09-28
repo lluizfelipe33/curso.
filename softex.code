@@ -1,0 +1,38 @@
+def  calculadora ():
+    operacao  =  input ( ''
+Por favor escolha com qual operador você deseja trabalhar
+1 parágrafo adição
+2 para subtração
+3 para multiplicação
+4 para divisão
+''' )
+
+    if  operacao  ==  '1' :
+        n1  =  int ( input ( "Insira o primeiro número: " ))
+        n2  =  int ( input ( "Insira o segundo número: " ))
+        print ( '{} + {} = ' . formato ( n1 , n2 ))
+        imprimir ( n1  +  n2 )
+
+    elif  operacao  ==  '2' :
+        n1  =  int ( input ( "Insira o primeiro número: " ))
+        n2  =  int ( input ( "Insira o segundo número: " ))
+        print ( '{} - {} = ' . formato ( n1 , n2 ))
+        imprimir ( n1  -  n2 )
+
+    elif  operacao  ==  '3' :
+        n1  =  int ( input ( "Insira o primeiro número: " ))
+        n2  =  int ( input ( "Insira o segundo número: " ))
+        print ( '{} * {} = ' . formato ( n1 , n2 ))
+        imprimir ( n1  *  n2 )
+
+    elif  operacao  ==  '4' :
+        n1  =  int ( input ( "Insira o primeiro número: " ))
+        n2  =  int ( input ( "Insira o segundo número: " ))
+        print ( '{} / {} = ' . formato ( n1 , n2 ))
+        imprimir ( n1  /  n2 )
+
+    mais :
+        print ( "Você não escolheu um operador válido" )
+        sair ()
+
+calculadora ()
