@@ -1,0 +1,41 @@
+Objetos Materiais:
+
+Televisão:
+Atributos:
+marca;
+modelo;
+cor.
+M[etodos:
+ligar;
+desligar;
+reproduzir imagem.	
+Teclado:
+Atributos
+marca;
+modelo;
+cor.
+Métodos:
+digitar;
+conectar;
+desconectar.
+
+Objetos abstratos:
+
+Música:
+Atributos:
+autor;
+melodia;
+tempo.
+Métodos:
+tocar;
+volume;
+parar.
+Conta bancária:
+Atributos:
+saldo bancário;
+nome do titular;
+histórico de transações.
+Métodos:
+depositar;
+transferir;
+sacar.
