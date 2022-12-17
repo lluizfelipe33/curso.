@@ -1,0 +1,36 @@
+interface StrategyPatter {
+    calcular(num1: number, num2: number)
+};
+
+
+class Soma implements StrategyPatter {
+    public calcular(num1, num2): number {
+        return num1 + num2
+    }
+}
+
+class Subtração implements StrategyPatter {
+    public calcular(num1, num2): number {
+        return num1 + num2
+    }
+}
+
+class Multiplicação implements StrategyPatter {
+    public calcular(num1, num2): number {
+        return num1 + num2
+    }
+}
+
+
+class Calculadora {
+    calcular(resultado:StrategyPatter, num1:number, num2:number): number {
+        return resultado.calcular(num1,num2)
+    }
+}
+
+
+
+const calculadora = new Calculadora()
+console.log(calculadora.calcular(new Soma(),10,5))
+console.log(calculadora.calcular(new Subtração(),10,5))
+console.log(calculadora.calcular(new Multiplicação(),10,5))
