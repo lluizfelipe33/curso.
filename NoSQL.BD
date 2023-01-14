@@ -1,0 +1,5 @@
+Relacionais:
+Um banco de dados relacional é um formato de banco de dados rigidamente estruturado, baseado em tabelas, como – por exemplo- o MySQL ou o Oracle. 
+
+Não relacionais:
+Os bancos de dados NoSQL são documentados e permitem que você armazene e recupere dados em formatos diferentes das tabelas. Plataformas Populares NoSQL incluem MongoDB, ElasticSearch e Redis.
