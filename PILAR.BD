@@ -1,0 +1,8 @@
+Tradicionalmente a segurança da informação é composta por três pilares, conhecidos pela sigla CID, são: Confidencialidade, Integridade e Disponibilidade.
+Confidencialidade diz respeito as ações que visam proteger as informações assim garantindo que trafeguem de forma sigilosa, como por exemplo o uso de criptografias e restrições de acesso.
+Integridade diz respeito a certeza de que as informações enviadas não sofram nenhuma modificação que não seja com sua devida autorização.
+Disponibilidade é caracterizado pela importância da informação estar disponível sempre que o usuário precisar, respeitando as regras de confidencialidades estabelecidas pela área de segurança da informação.
+Ao longo dos anos foram incorporados mais três pilares:
+Autenticidade garantindo que as informações sejam de uma fonte confiável, mantendo o registro do autor.
+Irretratabilidade impedindo que usuários negue a autoria de alguma informação.
+Conformidade assegurando que os processos aconteçam de forma a garantir o cumprimento das leis e normas regulamentadas.
