@@ -1,0 +1,29 @@
+CREATE TABLE pessoa (name varchar(45), age int);
+
+INSERT INTO pessoa VALUES ('Matthew', 25), ('Mark', 20);
+
+SELECT * FROM person;
+
+CREATE TABLE average_age (average double);
+
+INSERT INTO average_age SELECT AVG(age) FROM pessoa;
+
+SELECT * FROM average_age;
+
+CREATE TABLE pessoa _archive (
+name varchar(45),
+age int,
+time timestamp DEFAULT NOW());
+
+delimiter //
+CREATE TRIGGER pessoa _bi BEFORE INSERT
+ON pessoa
+FOR EACH ROW
+IF NEW.age < 18 THEN
+SIGNAL SQLSTATE '50001' SET MESSAGE_TEXT = 'Person must be older than 18.';
+END IF; //
+delimiter ;
+
+INSERT INTO pessoa VALUES ('John', 14);    // Falha
+
+INSERT INTO pessoa VALUES ('John', 19); // Funciona
