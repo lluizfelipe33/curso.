@@ -1,0 +1,4 @@
+“A função do servidor web é receber uma solicitação (requisição) e devolver (resposta) algo para o cliente. O browser permite ao usuário solicitar um recurso e quando o servidor responde a uma solicitação são encontrados recursos como: páginas HTML, figuras e documento PDF que são exibidas depois para o usuário. Geralmente os servidores enviam instruções para o browser escritas em HTML. O HTML diz ao browser como apresentar conteúdo ao usuário web.”
+
+
+Para criar um novo projeto em NodeJs, abrimos o prompt de comando ou terminal, criamos a pasta do projeto ex: ‘mkdir novo_projeto’, depois iniciamos o projeto node ‘npm init’, logo após é perguntado informações básica sobre o mesmo, como alguns exemplos “nome,versão,repositório git,autor...”. Logo após colocarmos ou não essas informações digitamos “yes” para finalizar a criação do package.json, pronto agora só criar o arquivo Javascript e começar a codar.
